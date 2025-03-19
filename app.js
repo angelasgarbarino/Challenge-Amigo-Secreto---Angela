@@ -26,16 +26,7 @@ function adicionarAmigo() {
 
     inputAmigo.value = "";
 }
-
-// Comando para evitar digitar nomes iguais:
-    // if (listaAmigos.includes(nomeAmigo)) {
-        // alert(`O nome '${nomeAmigo}' já está na lista!`);
-        // inputAmigo.value = ""; 
-  //      return; 
-//      }
-
     
-
 //3 Crie uma função que percorra o array amigos e adicione cada nome como um elemento <li> dentro de uma lista HTML. 
 // Use innerHTML para limpar a lista antes de adicionar novos elementos.//
 //Tarefas específicas:
@@ -82,11 +73,6 @@ function sortearAmigo() {
         resultado.appendChild(itemResultado);
           }
 }
-
-//   inputitemResultado.value = ""; PARA LIMPAR O RETORNO "o amigo secreto..."
-// ver como nao repetir nomes 
-// mudar imagem do arquivo 
-// adicionar nomes com enter
 
     amigos = []; 
     atualizarListaAmigos(); 
